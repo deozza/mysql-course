@@ -1,0 +1,3 @@
+[submodule "mysql-course-exercices"]
+	path = mysql-course-exercices
+	url = https://github.com/deozza/mysql-course-exercices
