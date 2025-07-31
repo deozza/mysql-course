@@ -8,6 +8,7 @@
 - [GROUP BY](#group-by)
 - [HAVING](#having)
 - [Les jointures de table](#les-jointures-de-table)
+- [Les requêtes imbriquées](#les-requêtes-imbriquées)
 
 ## ORDER BY
 
@@ -126,3 +127,19 @@ INNER JOIN table_b ON table_a.id = table_b.table_a_id;
 | LEFT JOIN  | au moins la partie gauche de la jointure répond à la condition |
 | RIGHT JOIN | au moins la partie droite de la jointure répond à la condition |
 | INNER JOIN | les deux parties de la jointure répondent à la condition       |
+
+## Les requêtes imbriquées
+
+Il est possible d'exécuter une requête `SELECT` sur les résultats d'une autre requête `SELECT` :
+
+```sql
+--Afficher quels sont les touristes qui font plus de visite que la moyenne :--
+SELECT first_name, last_name, total_visits  
+FROM guests 
+WHERE total_visits > (
+    SELECT AVG(total_visits)
+    FROM guests
+);
+```
+
+Ce n'est pas une pratique recommandée car très coûteuse en ressource et en performances.

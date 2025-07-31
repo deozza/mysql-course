@@ -2,7 +2,9 @@
 
 ## Sommaire
 
-- [Exemple de script](#exemple-de-script)
+- [Syntaxe](#syntaxe)
+  - [Sommaire](#sommaire)
+  - [Exemple de script](#exemple-de-script)
 
 ## Exemple de script
 
@@ -35,6 +37,7 @@ from table
 where property3='data'
 ;
 ```
+
 Les écrire en majuscule permet de différencier les fonctionnalités du langage SQL des paramètres de la base de données. On gagne en lisibilité et en compréhension.
 
 Dans la requête d'exemple, `data` est entre `''` (*guillemets simples* ou *single quotes*) parce que c'est du texte. Si on voulait écrire des nombres à la place, on aurait pu les écrire directement :

@@ -1,0 +1,3 @@
+# Agence immobilière
+
+Une agence immobilière souhaite digitaliser son calendrier de visites. Elle doit pour cela faire l'inventaire de tous les biens qu'elle gère. Un bien est identifié par un ID et se caractérise par une adresse et un code postal. Il peut avoir un numéro d'étage et un numéro d'appartement. Un bien est possédé par un propriétaire. Un propriétaire est une personne et est identifié par son adresse email. Son nom et son prénom seront aussi enregistrés. Pour enregistrer une visite, il faut une date et une heure de début de visite. Une visite ne concerne qu'un bien et qu'une seule personne, un client. Le client a les mêmes propriétés que le propriétaire. Il faut trouver un moyen de distinguer le client du propriétaire.

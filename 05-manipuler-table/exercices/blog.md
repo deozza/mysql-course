@@ -1,0 +1,3 @@
+# Blog
+
+Vous décidez de créer un blog sur lequel des personnes peuvent s'inscrire pour poster des articles et commenter les articles existants. Une personne doit rentrer un pseudo, un email et un mot de passe pour pouvoir s'enregistrer. Un article est posté par une personne et doit comporterr une date de publication, un titre et un contenu. Il faut aussi un moyen de l'identifier, car plusieurs articles peuvent avoir le même titre. Un commentaire est posté par une personne sur un article. Il comporte une date de publication, un contenu et peut répondre à un commentaire existant.

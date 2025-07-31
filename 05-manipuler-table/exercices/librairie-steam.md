@@ -1,0 +1,3 @@
+# Librairie Steam
+
+Steam doit refaire sa base de données. Il faudra gérer des jeux. Un jeu a un nom unique et un type de jeu. Chaque jeu a une liste de trophées, caractérisés par un id, un nom, une description et un degré de difficulté. Un trophée ne peut pas être distribué pour plusieurs jeux. Steam doit aussi gérer ses joueurs et joueuses, représenté.es par un pseudo et un email. Un.e joueur.se va acheter et collectionner des jeux.
